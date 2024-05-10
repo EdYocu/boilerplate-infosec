@@ -49,6 +49,7 @@ const app = express();
 
 module.exports = app;
 const api = require('./server.js');
+elmet.hidePoweredBy();
 app.use(express.static('public'));
 app.disable('strict-transport-security');
 app.use('/_api', api);
